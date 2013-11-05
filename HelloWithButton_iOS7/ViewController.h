@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UILabel  *tv;
+    UIButton *bu;
+}
+
+- (IBAction)buttonClicked:(id)sender;
 
 @end
