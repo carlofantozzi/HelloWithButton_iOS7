@@ -46,4 +46,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonClicked:(id)sender
+{
+    //NSString *newText = [[NSString alloc] initWithString: @"Good job!"];
+    NSString *newText = @"Good job!";
+    
+    // Perform action on click, i.e., change tv's text.
+    [tv setText:newText];
+}
+
 @end
