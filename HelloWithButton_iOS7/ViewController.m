@@ -26,7 +26,7 @@
     
     // Create the Button
     CGRect buttonFrame = CGRectMake(20.0, 20.0, 91.0, 37.0);
-    bu = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    bu = [UIButton buttonWithType:UIButtonTypeSystem];
     bu.frame = buttonFrame;
     [bu setTitle:@"Press me" forState:UIControlStateNormal];
     
